@@ -1,0 +1,63 @@
+.special_offer{
+    background: url('../img/BG.jpg') center/cover;
+    background-attachment: fixed;
+    padding-bottom: 10rem;
+
+    .heading{
+        text-align: center;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    .offer{
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        justify-content: center;
+
+        
+        div{
+            height: 600px;
+            background-color: $box-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding-top:2rem;
+
+            h1{
+                font-size: 40px;
+            }
+
+            
+        }
+        .two{
+            background-color: white;
+            height: 620px;
+            -webkit-box-shadow: 0 0 20px grey;
+            box-shadow: 0 0 20px grey;
+             z-index: 10;
+             margin-top: -3rem;
+
+             button{
+                 background-color: blue;
+                 color: white;
+             }
+        }
+        ul{
+            list-style-type: none;
+            li{
+                padding-top:3px;
+            }
+        }
+        button{
+            padding: 18px 26px;
+            border: none;
+            background-color: white;
+            border-radius: 40%;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+       
+
+    }
+}

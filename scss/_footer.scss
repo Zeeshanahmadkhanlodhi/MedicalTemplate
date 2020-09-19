@@ -1,0 +1,18 @@
+footer{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    .left{
+        margin-left: 4rem;
+        width: auto;
+    }
+   
+
+
+}

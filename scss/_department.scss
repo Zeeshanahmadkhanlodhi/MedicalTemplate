@@ -1,0 +1,91 @@
+.department{
+    margin-top:7em;
+    background: url('../img/Rectangle-827-copy-2.jpg');
+    
+    
+    .introduction{
+        text-align: center;
+        padding:5rem;
+       
+        
+    }
+    &__box{
+        margin-top: 4rem;
+        padding: 10rem;
+        background-color: white;
+        border-radius: 4%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10rem;
+        text-align: justify;
+        -webkit-box-shadow: 0 0 20px grey;
+        box-shadow: 0 0 20px grey;
+
+        div{
+           
+            .fa1{
+                position: absolute;
+
+            }
+            .fa2{
+                position: relative;
+                margin: 1rem;
+                color: #E8FBF9;
+
+            }
+
+            h3{
+                font-weight: 500;
+
+            }
+            
+        }
+    }
+}
+
+.dr{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+
+    &__left{
+        div{
+            margin-top: 10rem;
+            margin-left: 10rem;
+            
+    
+
+            h3{
+                padding-top: 2rem;
+            }
+            p{
+                padding-top: 1rem;
+            }
+            button{
+                margin-top: 1rem;
+                padding:20px 23px;
+                background-color: #70CBD0;
+                border: none;
+                border-radius: 35%;
+                font-weight: 600;
+                font-size: 15px;
+                color: white;
+
+                &:hover{
+                    color:black;
+                    background-color: white;
+                    border: 2px solid #70CBD0 ;
+                }
+                
+            }
+        }
+       
+    }
+    &__right{
+        img{
+            width: 700px;
+        }
+
+    }
+
+
+}
